@@ -1,0 +1,135 @@
+body{
+    width: 1440px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+    background-color: hsl(180, 5%, 96%);
+}
+
+.wrapper{
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(180, 33%, 99%);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.topsectiom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.box{
+   
+    border-radius: 14px;
+    margin-bottom: 5px;
+    margin-inline: 25px 25px;
+    display: flex;
+}
+
+.box:hover{
+    background-color: hsl(207, 38%, 94%);
+}
+
+.unread{
+    background-color:hsl(211, 68%, 94%);
+    box-shadow: 0 2px 5px rgba(184, 181, 181, 0.2);
+}
+
+.unread .dot{
+    height: 8px;
+    width: 8px;
+    background-color: hsl(1, 90%, 64%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.writing{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 5px;
+    color: hsl(200, 2%, 38%);
+}
+
+b{
+    color: black;
+}
+
+img{
+    width:50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#markallbutton {
+    cursor: pointer;
+    color: hsl(180, 1%, 32%);
+    font-weight: 500;
+}
+
+#chessimage{
+    margin-left: 180px;;
+}
+
+#notificationcount{
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white;
+    font-size: 16px;
+}
+
+#message{
+    margin: 20px;
+    padding: 15px;
+    border-color: rgb(175, 170, 170);
+    border-style:solid;
+    border-radius: 3px;
+}
+
+#posttitle{
+    color: hsl(220, 1%, 43%);
+    font-weight: 700;
+}
+
+#time{
+    color: rgb(141, 141, 141);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(219, 85%, 26%);
+    font-weight: 600;
+}
+
+@media (max-width: 575px){
+    body{
+        width: 375px;
+        background-color: hsl(180, 33%, 99%);
+    }
+    .wrapper{
+        width: auto;
+        box-shadow: none;
+        margin: auto;
+    }
+    #chessimage{
+        margin-left: 0;
+    }
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 30px
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
